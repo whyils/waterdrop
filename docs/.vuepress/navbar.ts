@@ -3,136 +3,143 @@ import { navbar } from 'vuepress-theme-hope'
 export default navbar([
   // '/',
   {
+    text: '笔记',
+    icon: 'streamline-ultimate-color:notes-book',
+    link: '/00.笔记/'
+  },
+  {
     text: 'Java',
-    icon: 'mdi:language-java',
+    icon: 'devicon:java',
     prefix: '/01.Java/',
     children: [
       {
         text: 'JavaCore',
-        icon: 'mdi:numeric-1-box-multiple-outline',
-        prefix: '01.JavaCore/',
-        link: '01.JavaCore/',
-        children: ['01.基础特性/', '02.高级特性/', '03.容器/', '04.IO/', '05.并发/', '06.JVM/', '99.面试/']
+        icon: 'devicon:java',
+        prefix: 'JavaCore/',
+        link: 'JavaCore/',
+        children: ['基础特性/', '高级特性/', '容器/', 'IO/', '并发/', 'JVM/', '面试/']
       },
-      { text: 'JavaEE', icon: 'mdi:numeric-2-box-multiple-outline', link: '02.JavaEE/' },
-      { text: '软件', icon: 'mdi:numeric-3-box-multiple-outline', link: '11.软件/' },
-      { text: '工具', icon: 'mdi:numeric-4-box-multiple-outline', link: '12.工具/' },
-      { text: '框架', icon: 'mdi:numeric-5-box-multiple-outline', link: '13.框架/' },
-      { text: '中间件', icon: 'mdi:numeric-6-box-multiple-outline', link: '14.中间件/' }
+      { text: 'JavaEE', icon: 'mdi:numeric-2-box-multiple-outline', link: 'JavaEE/' },
+      { text: '软件', icon: 'mdi:numeric-3-box-multiple-outline', link: '软件/' },
+      { text: '工具', icon: 'mdi:numeric-4-box-multiple-outline', link: '工具/' },
+      { text: '框架', icon: 'mdi:numeric-5-box-multiple-outline', link: '框架/' },
+      { text: '中间件', icon: 'mdi:numeric-6-box-multiple-outline', link: '中间件/' }
     ]
   },
   {
     text: '编程',
-    icon: 'mdi:microsoft-visual-studio-code',
+    icon: 'streamline-ultimate-color:app-window-code',
     link: '/02.编程/'
   },
   {
     text: '设计',
-    icon: 'mdi:design',
+    icon: 'streamline-ultimate-color:module-puzzle',
     prefix: '/03.设计/',
     children: [
       {
         text: '架构',
-        prefix: '01.架构/',
+        prefix: '架构/',
         children: [
-          { text: '综合', link: '00.综合/' },
-          { text: '微服务', link: '01.微服务/' },
-          { text: '安全', link: '02.安全/' },
-          { text: '解决方案', link: '99.解决方案/' }
+          { text: '综合', link: '综合/' },
+          { text: '微服务', link: '微服务/' },
+          { text: '安全', link: '安全/' },
+          { text: '解决方案', link: '解决方案/' }
         ]
       },
-      { text: '设计模式', link: '02.设计模式/' },
-      { text: '重构', link: '03.重构/' },
-      { text: 'DDD', link: '04.DDD/' },
-      { text: 'UML', link: '05.UML/' }
+      { text: '设计模式', link: '设计模式/' },
+      { text: '重构', link: '重构/' },
+      { text: 'DDD', link: 'DDD/' },
+      { text: 'UML', link: 'UML/' }
     ]
   },
   {
     text: 'DevOps',
-    icon: 'mdi:microsoft-azure-devops',
+    icon: 'streamline-ultimate-color:medical-app-laptop-1',
     link: '/04.DevOps/'
   },
   {
-    text: '数据结构和算法',
-    icon: 'carbon:data-structured',
-    link: '/11.数据结构和算法/'
+    text: '算法',
+    icon: 'streamline-ultimate-color:board-game-jenga',
+    link: '/11.算法/'
   },
   {
     text: '数据库',
-    icon: 'mdi:database',
+    icon: 'streamline-plump-color:database',
     link: '/12.数据库/',
     children: [
-      { text: '数据库综合', link: '/12.数据库/01.数据库综合/' },
-      { text: '数据库中间件', link: '/12.数据库/02.数据库中间件/' },
+      { text: '数据库综合', link: '/12.数据库/数据库综合/' },
+      { text: '数据库中间件', link: '/12.数据库/数据库中间件/' },
       {
         text: '关系型数据库',
-        link: '/12.数据库/03.关系型数据库/',
-        children: [
-          { text: 'MySQL', icon: 'logos:mysql', link: '/12.数据库/03.关系型数据库/mysql/' },
-        ]
+        link: '/12.数据库/关系型数据库/',
+        children: [{ text: 'MySQL', icon: 'logos:mysql', link: '/12.数据库/关系型数据库/MySQL/' }]
       },
       {
         text: '文档数据库',
-        link: '/12.数据库/04.文档数据库/',
-        children: [{ text: 'MongoDB', icon: 'logos:mongodb', link: '/12.数据库/04.文档数据库/mongodb/' }]
+        link: '/12.数据库/文档数据库/',
+        children: [{ text: 'MongoDB', icon: 'logos:mongodb', link: '/12.数据库/文档数据库/MongoDB/' }]
       },
       {
         text: 'KV数据库',
-        link: '/12.数据库/05.KV数据库/',
-        children: [{ text: 'Redis', icon: 'logos:redis', link: '/12.数据库/05.KV数据库/redis/' }]
+        link: '/12.数据库/KV数据库/',
+        children: [{ text: 'Redis', icon: 'logos:redis', link: '/12.数据库/KV数据库/Redis/' }]
       },
       {
         text: '列式数据库',
-        link: '/12.数据库/06.列式数据库/',
-        children: [{ text: 'HBase', icon: 'logos:hbase', link: '/12.数据库/06.列式数据库/hbase/' }]
+        link: '/12.数据库/列式数据库/',
+        children: [{ text: 'HBase', icon: 'logos:hbase', link: '/12.数据库/列式数据库/HBase/' }]
       },
       {
         text: '搜索引擎数据库',
-        link: '/12.数据库/07.搜索引擎数据库/',
+        link: '/12.数据库/搜索引擎数据库/',
         children: [
-          { text: 'Elasticsearch', icon: 'logos:elasticsearch', link: '/12.数据库/07.搜索引擎数据库/elasticsearch/' },
-          { text: 'Elastic技术栈', icon: 'vscode-icons:file-type-elastic', link: '/12.数据库/07.搜索引擎数据库/elastic/' }
+          { text: 'Elasticsearch', icon: 'logos:elasticsearch', link: '/12.数据库/搜索引擎数据库/Elasticsearch/' },
+          {
+            text: 'Elastic技术栈',
+            icon: 'vscode-icons:file-type-Elastic',
+            link: '/12.数据库/搜索引擎数据库/Elastic/'
+          }
         ]
       }
     ]
   },
   {
     text: '网络',
-    icon: 'mdi:network',
+    icon: 'streamline-ultimate-color:network',
     link: '/13.网络/'
   },
   {
     text: '分布式',
-    icon: 'mdi:resistor-nodes',
+    icon: 'streamline-stickies-color:server-network',
     prefix: '/15.分布式/',
     children: [
-      { text: '分布式综合', link: '00.分布式综合/' },
-      { text: '分布式协同', link: '11.分布式协同/' },
-      { text: '分布式调度', link: '12.分布式调度/' },
+      { text: '分布式理论', link: '分布式理论/' },
+      { text: '分布式协同', link: '分布式协同/' },
+      { text: '分布式调度', link: '分布式调度/' },
       {
         text: '分布式通信',
         children: [
-          { text: 'RPC', icon: 'file-icons:powerpc', link: '21.分布式通信/01.RPC' },
-          { text: 'MQ', icon: 'mdi:mq', link: '21.分布式通信/02.MQ' }
+          { text: 'RPC', icon: 'file-icons:powerpc', link: '分布式通信/RPC' },
+          { text: 'MQ', icon: 'mdi:mq', link: '分布式通信/MQ' }
         ]
       },
-      { text: '分布式存储', link: '22.分布式存储/' }
+      { text: '分布式存储', link: '分布式存储/' }
     ]
   },
   {
     text: '大数据',
-    icon: 'devicon-plain:hadoop',
+    icon: 'streamline-ultimate-color:app-window-pie-chart',
     children: [
       { text: 'Hadoop', icon: 'devicon:hadoop', link: '/16.大数据/hadoop/' },
       { text: 'Hive', icon: 'simple-icons:apachehive', link: '/16.大数据/hive/' },
-      { text: 'HBase', icon: 'logos:hbase', link: '/12.数据库/06.列式数据库/hbase/' },
-      { text: 'ZooKeeper', link: '/15.分布式/11.分布式协同/02.ZooKeeper/' },
-      { text: 'Kafka', icon: 'logos:kafka-icon', link: '/15.分布式/21.分布式通信/02.MQ/01.Kafka/' }
+      { text: 'HBase', icon: 'logos:hbase', link: '/12.数据库/列式数据库/HBase/' },
+      { text: 'ZooKeeper', link: '/15.分布式/分布式协同/ZooKeeper/' },
+      { text: 'Kafka', icon: 'logos:kafka-icon', link: '/15.分布式/分布式通信/MQ/Kafka/' }
     ]
   },
   {
-    text: '笔记',
-    icon: 'mdi:notes',
-    link: '/99.笔记/'
+    text: '面试',
+    icon: 'streamline-ultimate-color:award-ribbon-star-1',
+    link: '/99.面试/'
   }
 ])

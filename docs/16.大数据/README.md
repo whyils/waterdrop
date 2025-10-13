@@ -39,39 +39,39 @@ index: false
 
 ### [综合](综合)
 
-- [大数据简介](综合/01.大数据简介.md)
-- [大数据学习](综合/02.大数据学习.md)
+- [大数据简介](综合/大数据简介.md)
+- [大数据学习](综合/大数据学习.md)
 
-### [Hadoop](hadoop)
+### [Hadoop](Hadoop)
 
-- [HDFS](hadoop/HDFS.md)
-- [YARN](hadoop/YARN.md)
-- [MapReduce](hadoop/MapReduce.md)
-- [Hadoop 面试](hadoop/Hadoop面试.md) 💯
+- [HDFS](Hadoop/HDFS.md)
+- [YARN](Hadoop/YARN.md)
+- [MapReduce](Hadoop/MapReduce.md)
+- [Hadoop 面试](Hadoop/Hadoop_面试.md) 💯
 
-### [HIVE](hive)
+### [HIVE](Hive)
 
-- [Hive 简介](hive/Hive简介.md)
-- [Hive 表](hive/Hive表.md)
-- [Hive 视图和索引](hive/Hive视图和索引.md)
-- [Hive 查询](hive/Hive查询.md)
-- [Hive DDL](hive/HiveDDL.md)
-- [Hive DML](hive/HiveDML.md)
-- [Hive 运维](hive/Hive运维.md)
-- [Hive 面试](hive/Hive面试.md) 💯
+- [Hive 简介](Hive/Hive_简介.md)
+- [Hive 表](Hive/Hive_表.md)
+- [Hive 视图和索引](Hive/Hive_视图和索引.md)
+- [Hive 查询](Hive/Hive_查询.md)
+- [Hive DDL](Hive/Hive_DDL.md)
+- [Hive DML](Hive/Hive_DML.md)
+- [Hive 运维](Hive/Hive_运维.md)
+- [Hive 面试](Hive/Hive_面试.md) 💯
 
 ### Kafka
 
-> **[Kafka](https://dunwu.github.io/waterdrop/pages/260fb327/) 是一个分布式流处理平台，此外，它也被广泛应用于消息队列**。
+> **[Kafka](https://dunwu.github.io/waterdrop/pages/dff5c241/) 是一个分布式流处理平台，此外，它也被广泛应用于消息队列**。
 
-- [Kafka 快速入门](https://dunwu.github.io/waterdrop/pages/838a5f6a/)
-- [Kafka 生产](https://dunwu.github.io/waterdrop/pages/f49f3bd2/)
-- [Kafka 消费](https://dunwu.github.io/waterdrop/pages/4952bbd2/)
-- [Kafka 集群](https://dunwu.github.io/waterdrop/pages/32977605/)
-- [Kafka 可靠传输](https://dunwu.github.io/waterdrop/pages/4c187841/)
-- [Kafka 存储](https://dunwu.github.io/waterdrop/pages/4d7aaaa2/)
-- [Kafka 流式处理](https://dunwu.github.io/waterdrop/pages/640d44c6/)
-- [Kafka 运维](https://dunwu.github.io/waterdrop/pages/91694ba0/)
+- [Kafka 快速入门](https://dunwu.github.io/waterdrop/pages/8cbcce2f/)
+- [Kafka 生产](https://dunwu.github.io/waterdrop/pages/af73e0f1/)
+- [Kafka 消费](https://dunwu.github.io/waterdrop/pages/d9dafb49/)
+- [Kafka 集群](https://dunwu.github.io/waterdrop/pages/da944418/)
+- [Kafka 可靠传输](https://dunwu.github.io/waterdrop/pages/df6965b2/)
+- [Kafka 存储](https://dunwu.github.io/waterdrop/pages/f31f25c0/)
+- [Kafka 流式处理](https://dunwu.github.io/waterdrop/pages/97b2c587/)
+- [Kafka 运维](https://dunwu.github.io/waterdrop/pages/80004b19/)
 
 ### 其他
 
